@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDoリスト</title>
-    <script src="main.js" defer></script>
-</head>
-<body>
-    <a href="button/index.html">buttonの実装</a>
-    <h1>ToDoリスト</h1>
-    <input type="text" id="todoInput" placeholder="やることを入力">
-    <button onClick="addTodo()">追加</button>
-    <ul id="todoList"></ul>
-</body>
+    <head>
+        <title>ToDoList</title>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <h1>ToDoList</h1>
+        <input type="text" id="todoInput" placeholder="やることを入力">
+        <button onclick="addTodo()">追加</button>
+        <button onclick="deleteList()">削除</button>
+        
+        <ul id="todoList"></ul>
+        
+    </body>
 </html>
